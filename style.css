@@ -67,6 +67,23 @@ a:hover {
   box-shadow: 0 0 10px #007acc;
   transition: 0.3s ease;
 }
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skills li {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
 
 a:hover {
   color: #005a99;
